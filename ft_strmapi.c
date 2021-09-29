@@ -6,7 +6,7 @@
 /*   By: jmilson- <jmilson-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/16 01:51:44 by jmilson-          #+#    #+#             */
-/*   Updated: 2021/09/18 03:15:25 by jmilson-         ###   ########.fr       */
+/*   Updated: 2021/09/29 15:52:53 by jmilson-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,6 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 		str[i] = f(i, s[i]);
 		i++;
 	}
-	str[i] = '\0';
 	if (str == NULL)
 		return (NULL);
 	return (str);
