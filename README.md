@@ -14,5 +14,5 @@
 2. Enter on *42-Libft* repository on your computer, then compile it.<br>
 `cd 42-Libft`<br>
 `make`<br>
-3. It's ready to be used! In order to import it to your project, call the path of the compiled file `libft.h` 
+3. It's ready to be used! In order to import it to your project, call `libft.h`'s path. 
 4. Don't need it anymore? `make fclean`
